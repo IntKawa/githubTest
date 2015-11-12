@@ -1,0 +1,6 @@
+language: objective-c
+ 
+before_install:
+ 
+script:
+  - xctool -workspace SimpleCalculator.xcworkspace -scheme SimpleCalculator -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
